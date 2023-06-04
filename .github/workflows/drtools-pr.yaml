@@ -4,6 +4,9 @@ on:
     branches:
       - main
 
+permissions:
+  pull-requests: write
+
 jobs:
   dr-tools-analyze-pr:
     runs-on: ubuntu-latest
